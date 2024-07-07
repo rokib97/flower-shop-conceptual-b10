@@ -1,0 +1,7 @@
+Project-Github : https://github.com/rokib97/flower-shop-conceptual-b10
+
+project-figma:  https://github.com/ProgrammingHero1/flower-shop-assignment
+
+flex: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+grid: https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties
