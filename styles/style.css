@@ -129,11 +129,11 @@ body {
   width: 90%;
   height: 449px;
   margin: 0 auto;
-
-  background-image: url("./images/latest-deals-bg.png");
+  background-image: url("/images/latest-deals-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 2px solid red;
 }
 .super-deals-container {
   display: flex;
