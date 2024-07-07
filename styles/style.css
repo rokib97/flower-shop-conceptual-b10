@@ -29,6 +29,7 @@ body {
 }
 .banner-text-container h1 {
   margin-bottom: 20px;
+  font-size: 62px;
 }
 .banner-text-container button {
   width: 150px;
