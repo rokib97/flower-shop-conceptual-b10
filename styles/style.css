@@ -16,12 +16,11 @@ body {
 }
 .banner-content {
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .banner-text-container {
   width: 50%;
-  border: 2px solid red;
   height: 650px;
   display: flex;
   flex-direction: column;
@@ -35,7 +34,7 @@ body {
   border: none;
   border-radius: 2px;
   margin-top: 10px;
-  margin-right: 365px;
+  margin-right: 420px;
 }
 .banner-image-container {
   height: 650px;
@@ -43,7 +42,6 @@ body {
   width: 50%;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
 }
 .banner-image-container img {
   width: 60%;
