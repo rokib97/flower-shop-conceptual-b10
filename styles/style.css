@@ -20,7 +20,8 @@ body {
   margin: 0 auto;
 }
 .banner-text-container {
-  width: 40%;
+  width: 50%;
+  border: 2px solid red;
   height: 650px;
   display: flex;
   flex-direction: column;
@@ -37,12 +38,12 @@ body {
   margin-right: 365px;
 }
 .banner-image-container {
-  width: 60%;
   height: 650px;
   display: flex;
+  width: 50%;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 .banner-image-container img {
   width: 60%;
