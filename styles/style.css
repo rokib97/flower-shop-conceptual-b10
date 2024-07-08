@@ -50,7 +50,6 @@ body {
 .banner-image-container img {
   width: 80%;
   height: 650px;
-
   margin-left: 120px;
 }
 .featured-image-container {
@@ -134,7 +133,7 @@ body {
   width: 90%;
   height: 449px;
   margin: 0 auto;
-  background-image: url("/images/latest-deals-bg.png");
+  background-image: url("../images/latest-deals-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
