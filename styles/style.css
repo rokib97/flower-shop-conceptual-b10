@@ -44,7 +44,7 @@ text-align: left;
   height: 45px;
   background-color: rgb(229, 84, 115);
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   margin-top: 25px;
   color: white;
 }
@@ -67,7 +67,7 @@ text-align: left;
   margin-left: 120px;
 }
 .featured-image-container {
-  width: 90%;
+  max-width: 1260px;
   height: 650px;
   margin: 0 auto;
   margin-top: 140px;
@@ -133,7 +133,7 @@ text-decoration-line: underline;
   border-radius: 50%;
 }
 .instagram-section-container {
-  width: 90%;
+  width: 1260px;
   height: 1050px;
   margin: 0 auto;
   margin-top: 140px;
@@ -160,7 +160,7 @@ text-decoration-line: underline;
   gap: 10px;
 }
 .super-deals-container {
-  width: 90%;
+  width: 1260px;
   height: 449px;
   margin: 0 auto;
   background-image: url("../images/latest-deals-bg.png");
@@ -197,11 +197,15 @@ text-decoration-line: underline;
 color: rgba(39, 39, 39, 0.8);
 font-family: Lato;
 text-align: center;
+line-height: 25px;
+}
+span{
+  color:rgb(229, 84, 115);
 }
 
 /* support and delivery section */
 .supportanddelivery-container{
-  width: 90%;
+  width: 1260px;
   height: 320px;
   margin: 0 auto;
   margin-top: 140px;
@@ -213,7 +217,7 @@ text-align: center;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 }
-.imageandtext{
+.supportanddelivery-container .imageandtext{
   width: 25%;
   height: 147px;
   display: flex;
@@ -221,7 +225,50 @@ text-align: center;
   align-items: center;
   justify-content: space-around;
 }
-.imageandtext img{
+.supportanddelivery-container .imageandtext img{
   width: 88px;
   height: 88px;
 }
+
+
+
+/* hot deal section start */
+main .hotdeal{
+  width: 100%;
+  height: 620px;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+main .hotdeal .text-img-container{
+width: 1260px;
+height: 600px;
+display: flex;
+justify-content: space-around;
+}
+main .hotdeal .text-img-container >  div{
+  width: 45%;;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  main .hotdeal .text-img-container .textcontainer{
+    display: flex;
+    row-gap: 20px;
+  }
+
+  main .hotdeal .text-img-container .textcontainer button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+  }
