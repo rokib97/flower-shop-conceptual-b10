@@ -71,6 +71,10 @@ text-align: left;
   margin: 0 auto;
   margin-top: 140px;
 }
+.featured-title-container > p{
+  margin-top: 10px;
+  line-height: 20px;
+}
 .featured-title-container {
   display: flex;
   flex-direction: column;
