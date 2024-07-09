@@ -25,20 +25,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .banner-text-container h1 {
   margin-bottom: 20px;
   font-size: 62px;
 }
-.banner-text-container button {
+.banner-text-container p {
+  color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-text-container div button {
   width: 150px;
   height: 45px;
   background-color: rgb(229, 84, 115);
   border: none;
   border-radius: 2px;
-  margin-top: 30px;
-  margin-right: 420px;
+  margin-top: 25px;
+}
+.banner-text-container div{
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  width: 150px;
 }
 .banner-image-container {
   height: 650px;
