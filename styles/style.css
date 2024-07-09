@@ -177,19 +177,24 @@ text-decoration-line: underline;
 .deals-content p {
   margin-bottom: 30px;
 }
+.deals-content h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 .deals-content input {
   width: 400px;
   height: 40px;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #subscribe-btn {
   width: 100px;
   height: 40px;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   background-color: rgb(229, 84, 115);
+  color: white;
 }
 /* shared styles */
 
@@ -271,4 +276,56 @@ main .hotdeal .text-img-container >  div{
     border-radius: 8px;
     margin-top: 10px;
     color: white;
+  }
+
+
+  /* footer section start */
+
+
+  footer{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    background: rgb(17, 16, 16);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .text-content{
+    width: 625px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 22px;
+    text-align: center;
+  }
+
+  footer .text-content h1{
+    font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  }
+  footer .text-content .fastp{
+color: rgba(255, 255, 255, 0.8);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+  }
+
+  footer .text-content .lastp{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
   }
