@@ -25,20 +25,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .banner-text-container h1 {
   margin-bottom: 20px;
   font-size: 62px;
 }
-.banner-text-container button {
+.banner-text-container p {
+  color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-text-container div button {
   width: 150px;
   height: 45px;
   background-color: rgb(229, 84, 115);
   border: none;
-  border-radius: 2px;
-  margin-top: 30px;
-  margin-right: 420px;
+  border-radius: 8px;
+  margin-top: 25px;
+  color: white;
+}
+.banner-text-container div{
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  width: 150px;
 }
 .banner-image-container {
   height: 650px;
@@ -53,10 +67,14 @@ body {
   margin-left: 120px;
 }
 .featured-image-container {
-  width: 90%;
+  max-width: 1260px;
   height: 650px;
   margin: 0 auto;
   margin-top: 140px;
+}
+.featured-title-container > p{
+  margin-top: 10px;
+  line-height: 20px;
 }
 .featured-title-container {
   display: flex;
@@ -70,6 +88,18 @@ body {
   display: flex;
   gap: 20px;
   margin-top: 80px;
+  position: relative;
+}
+.featured-images p{
+  position: absolute;
+  bottom: -40px;
+  color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+text-decoration-line: underline;
+
 }
 .first-image,
 .second-image,
@@ -103,7 +133,7 @@ body {
   border-radius: 50%;
 }
 .instagram-section-container {
-  width: 90%;
+  width: 1260px;
   height: 1050px;
   margin: 0 auto;
   margin-top: 140px;
@@ -130,7 +160,7 @@ body {
   gap: 10px;
 }
 .super-deals-container {
-  width: 90%;
+  width: 1260px;
   height: 449px;
   margin: 0 auto;
   background-image: url("../images/latest-deals-bg.png");
@@ -147,17 +177,155 @@ body {
 .deals-content p {
   margin-bottom: 30px;
 }
+.deals-content h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 .deals-content input {
   width: 400px;
   height: 40px;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #subscribe-btn {
   width: 100px;
   height: 40px;
   border: none;
-  border-radius: 2px;
+  border-radius: 8px;
   background-color: rgb(229, 84, 115);
+  color: white;
 }
+/* shared styles */
+
+.gray{
+color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+text-align: center;
+line-height: 25px;
+}
+span{
+  color:rgb(229, 84, 115);
+}
+
+/* support and delivery section */
+.supportanddelivery-container{
+  width: 1260px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 140px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.supportanddelivery-container .imageandtext{
+  width: 25%;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.supportanddelivery-container .imageandtext img{
+  width: 88px;
+  height: 88px;
+}
+
+
+
+/* hot deal section start */
+main .hotdeal{
+  width: 100%;
+  height: 620px;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+main .hotdeal .text-img-container{
+width: 1260px;
+height: 600px;
+display: flex;
+justify-content: space-around;
+}
+main .hotdeal .text-img-container >  div{
+  width: 45%;;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  main .hotdeal .text-img-container .textcontainer{
+    display: flex;
+    row-gap: 20px;
+  }
+
+  main .hotdeal .text-img-container .textcontainer button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+  }
+
+
+  /* footer section start */
+
+
+  footer{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    background: rgb(17, 16, 16);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .text-content{
+    width: 625px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 22px;
+    text-align: center;
+  }
+
+  footer .text-content h1{
+    font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  }
+  footer .text-content .fastp{
+color: rgba(255, 255, 255, 0.8);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+  }
+
+  footer .text-content .lastp{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
